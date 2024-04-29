@@ -27,7 +27,10 @@ ul {
     margin: 0px auto;
     padding: 0 50px 0 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+
 
 
 .navbar-top{
@@ -82,3 +85,101 @@ ul li a{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/* header has started */
+
+.bg-bank{
+    background-image: url("https://minio.uzdc.uz/utc-new/Utc-prod/d26ff763-4d7e-48fa-aa93-3d1d2fa2469a/5anA3uTbSy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 40px;
+}
+
+.type{
+    border: 1px solid rgba(0, 183, 255, 0.652);
+    color: rgba(89, 189, 255, 0.639);
+    display: inline-block;
+    padding: 3px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.bg-bank h2{
+    color: white;
+    padding: 30px 0 20px 0;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.bepul{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.batafsil{
+    padding: 20px 35px;
+    color: black;
+    background-color: rgb(255, 255, 57);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.batafsil:hover{
+    background-color: white;
+}
+
+/* xizmatlar section has started */
+
+#xizmatlar{
+    background-image: url("./images/hellobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onlyimg{
+    margin-top: 75px;
+}
+
+.box{
+    padding: 30px;
+    background-color: white;
+    color: rgb(65, 65, 65);
+    border-radius: 5px;
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.box svg{
+    margin-bottom: 20px;
+}
+
+.gsm{
+    margin-top: 50px;
+}
+
+.boxes{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box:hover{
+    color: rgb(93, 93, 255);
+    box-shadow: 0px 0px 25px 0px rgb(136, 150, 255);
+    transform: scale(1.007);
+}
+
+/* svg ni hoveri ishlamadi */
+
+/* .box:hover svg path {
+    fill: blue;
+} */
+
+
+
