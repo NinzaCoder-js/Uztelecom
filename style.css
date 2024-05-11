@@ -46,6 +46,23 @@ ul li a{
     padding: 20px;
 }
 
+body{
+    position: relative;
+}
+
+.sms{
+    position: fixed;
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgb(66, 151, 255);
+    color: white;
+    border-radius: 60px;
+    text-align: center;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+}
+
 .navbar-top a{
     color: rgba(128, 128, 128, 0.541);
     transition: all 0.2s;
@@ -135,7 +152,7 @@ ul li a{
 /* xizmatlar section has started */
 
 #xizmatlar{
-    background-image: url("./images/hellobg.jpg");
+    background-image: url("./images/bgimage.avif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -149,7 +166,7 @@ ul li a{
     background-color: white;
     color: rgb(65, 65, 65);
     border-radius: 5px;
-    transition: all 0.4s;
+    transition: all 0.25s;
     text-align: center;
     align-items: center;
     color: grey;
@@ -214,6 +231,7 @@ ul li a{
 .same{
     padding: 10px 15px;
     border-radius: 5px;  
+    border: 1px solid grey;
 }
 
 .enternum{
@@ -284,11 +302,6 @@ ul li a{
 /* section ommabop has started */
 
 
-.tarif h3{
-    background-color: rgb(93, 93, 255);
-    color: white;
-    padding: 25px 60px 25px 20px;  
-}
 
 .limit{
     padding: 15px;
@@ -299,7 +312,7 @@ ul li a{
 
 .ommabop{
     display: flex;
-    column-gap: 15px;
+    column-gap: 10px;
 }
 
 .limit p{
@@ -307,10 +320,10 @@ ul li a{
 }
 
 .limit span{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
-    color: rgba(0, 0, 0, 0.725);
-    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.828);
+    margin-top: 12px;
 }
 
 #ommabop{
@@ -333,10 +346,59 @@ ul li a{
     transition: all 0.4s;
 }
 
+
+.pos{
+    background-color: rgb(93, 93, 255);
+    color: white;
+    padding: 25px 60px 25px 20px;
+    position: relative;  
+}
+
+.pos img{
+    width: 7%;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}
+
+#odd{
+    background-color: green;
+}
+
+.chevron{
+    position: absolute;
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border-radius: 100%;
+    right: 0px;
+    bottom: 15px;
+    text-align: center;
+    transform: translateX(100%);
+    transition: 0.3s ease;
+}
+
+.tarif{
+    position: relative; 
+    overflow: hidden; 
+    transition: all 0.3s;
+}
+
+.tarif:hover .chevron {
+    transform: translateX(0);
+    right: 20px;
+}
+
+.tarif:hover{
+    
+    box-shadow: 0px 20px 30px 5px rgb(210, 242, 255);
+}
+
 .tarif:hover .limit{
     background-color: white;
-    box-shadow: 0px 10px 15px 5px rgb(225, 246, 255);
 }
+
+
 
 
 
