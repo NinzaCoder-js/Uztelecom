@@ -409,7 +409,7 @@ body{
 
 
 #news{
-    padding-top: 100px;
+    padding: 100px 0;
     background-color: rgb(222, 238, 251);
 }
 
@@ -422,6 +422,8 @@ body{
 .in-box{
     background-color: #fff;
     padding: 40px;
+    border-radius: 7px;
+    transition: all 0.2s;
 }
 
 .new{
@@ -429,6 +431,30 @@ body{
     column-gap: 30px;
     justify-content: space-between;
 }
+
+.new-box h3{
+    color: rgba(0, 0, 0, 0.681);
+}
+
+.lorem{
+    margin: 30px 0;
+    color: rgba(128, 128, 128, 0.698);
+}
+
+.date{
+    color: rgba(128, 128, 128, 0.62);
+}
+
+.in-box:hover h3{
+    text-decoration: underline;
+    color: rgb(0, 183, 255);
+}
+
+.in-box:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 5px 20px 5px rgba(128, 128, 128, 0.276);
+}
+
 
 
 
