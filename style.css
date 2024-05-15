@@ -328,7 +328,7 @@ body{
 
 #ommabop{
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 #ommabop h2{
@@ -346,7 +346,6 @@ body{
 .limit{
     transition: all 0.4s;
 }
-
 
 .pos{
     background-color: rgb(93, 93, 255);
@@ -400,6 +399,36 @@ body{
 }
 
 
+/* mobilraqam section has started */
+
+/* mobilraqam section like header so we don't write code  */
+
+
+
+/* news section has started */
+
+
+#news{
+    padding-top: 100px;
+    background-color: rgb(222, 238, 251);
+}
+
+.new-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.in-box{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.new{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
 
 
 
